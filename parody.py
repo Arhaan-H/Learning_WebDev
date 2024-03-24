@@ -1,0 +1,20 @@
+import pyautogui
+import time
+a=input("Enter the person: ")
+b=input("Enter the statement: ")
+c=int(input("how many time :) ::"))
+pyautogui.press("win")
+time.sleep(1)
+pyautogui.write("what")
+time.sleep(3)
+pyautogui.press("Enter")
+time.sleep(3)
+pyautogui.write(a)
+time.sleep(3)
+pyautogui.click(311,232)
+time.sleep(3)
+for i in range(1,c):
+    pyautogui.write(f"{b} ")
+    pyautogui.press("Enter")
+# pyautogui.write("Good Morning Aapka Din Shub rahe")
+pyautogui.press("Enter")
